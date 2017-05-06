@@ -11,6 +11,7 @@ paths.*
 !paths.in
 config/gen/
 .config
+src/
 
 # Temporaries
 .*.swp
