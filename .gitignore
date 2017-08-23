@@ -14,11 +14,13 @@ config/gen/
 config/versions/
 .config
 src/
+maintainer/package-versions
 
 # Temporaries
 .*.swp
 build.log
 .config.old
+temp.*
 
 # This is the place where toolchains are built
 .build/
