@@ -15,6 +15,7 @@ config/configure.in
 config/gen/
 config/versions/
 .config
+src/
 verbatim-data.mk
 maintainer/package-versions
 

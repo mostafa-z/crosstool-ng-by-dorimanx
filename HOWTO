@@ -1,0 +1,15 @@
+# Build Commands
+1- ./bootstrap
+2- ./configure --enable-local
+check progress for missing stuff,  like help2man, then you should install it
+sudo apt install help2man # ubuntu
+sudo pacman -S help2man # arch
+etc
+or any package were missed
+once you did then no need to check again
+
+3- make
+
+to change build config
+4- ./ct-ng menuconfig
+5- ./ct-ng build
