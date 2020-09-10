@@ -1,5 +1,7 @@
 # Build Commands
 1- ./bootstrap
+you should see "INFO  :: *** Done!" at the end
+
 2- ./configure --enable-local
 check progress for missing stuff,  like help2man, then you should install it
 sudo apt install help2man # ubuntu
@@ -12,4 +14,6 @@ once you did then no need to check again
 
 to change build config
 4- ./ct-ng menuconfig
+
+to start the build
 5- ./ct-ng build
